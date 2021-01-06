@@ -1,24 +1,45 @@
 body {
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    width: 1100px:
+}
+p {
+    color: dimgray;
+}
+.first-section {
+    height: 1px;
+}
+.first-ul{
+    color:white;
+    display: inline-block;
+    list-style-type: none;
+}
+.another-list a{
+    text-decoration: none;
+}
+#first-list {
+    margin-left:880px;
+}
+.another-list {
+    float: left;
+    padding-left: 80px;
 }
 .first-header-highlight{
-    color: blueviolet
+    color: salmon;
 
 }
 .second-header-highlight {
-    color:brown;
+    color: tomato;
 }
 p {
     font-size: 25px;
 }
 
-
 .half-width  {
-    width: 35%;
+    width: 40%;
     float:left;
-    margin-left:5%;
+    margin-left: 5%;
     padding-left:2%;
-    
 }
 .link-button {
     text-decoration: none;
@@ -27,13 +48,13 @@ p {
     border-radius: 5px;
 }
 .half-width img {
-    width: 100%;
+    width: 90%;
 }
 section {
     height: 500px;
     padding-bottom: 150px;
 }
-h1 {
+.hello-header {
     font-size: 70px;
 }
 span {
@@ -46,4 +67,122 @@ h2 {
 }
 .third-part {
     background-color: rgb(242, 245, 245);
+}
+.image-box {
+    width: 24%;
+    margin-left: 6%;
+    padding-left: 10px;
+    padding-top: 10px;
+    float:left;
+    border: 0px solid;
+    background-color: white ;
+    border-radius: 15px;
+    box-shadow:   1px 1px 20px gainsboro;
+}
+.images {
+    height: 200px;
+    width:330px;
+    background-color: aliceblue;
+    padding:10px;
+    border-radius: 15px;
+}
+.box-text {
+    font-size: 18px;
+}
+.lastet {
+    padding-bottom: 50px;
+    color:darkslategray ;
+} 
+.third-part {
+    height: 600px;
+}
+.header-align {
+    text-align: center;
+    font-size: 60px;
+    color: coral;
+}
+.list {
+    color:rgb(182, 26, 57);
+    font-size: 50px;
+}
+.list-item {
+    color:darkslategray;
+    font-size: 30px;
+}
+.skills {
+    width:37%;
+    margin-left: 10%;
+    padding-left: 1%;
+    float: left;
+}
+.list-section-height {
+    height: 500px;
+}
+.forth-image {
+    width:800px;
+    height: 500px;
+    padding-left: 100px;
+    border: 10px solid red;
+}
+.forth-part {
+    height: 130px;
+    width: 1000px;
+    border: 0px solid;
+    border-radius: 20px;
+    background-image: url("images/Group_33094_1.png" );
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    margin-left: 17%;
+    margin-top: 10%;
+    background-size: cover;
+}
+.forth-text {
+    padding-left: 60px;
+    margin-top:-12px;
+    font-size: 50px;
+    color:rgb(242, 245, 245)
+}
+#link-position {
+    padding-left: 800px;
+    margin-top: -110px;
+    font-size: 20px;
+}
+.section-height{
+    height:170px;
+}
+.last-para {
+    color:mediumslateblue;
+    font-size: 20px;
+    text-align: center;
+}
+.last-link {
+    color:orchid;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+#last-link-alignment {
+    text-align: center;
+}
+.icon-shape {
+    height: 40px;
+    width: 40px;
+}
+.icon-decoration {
+    text-align: center;
+    float: left;
+}
+#icon1 {
+    margin-left: 44%;
+}
+#icon2 {
+    margin-left:2%;
+}
+#icon3 {
+    margin-left: 2%;
+}
+.last-section-height {
+    height: 100px;
 }
