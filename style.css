@@ -1,0 +1,49 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+.first-header-highlight{
+    color: blueviolet
+
+}
+.second-header-highlight {
+    color:brown;
+}
+p {
+    font-size: 25px;
+}
+
+
+.half-width  {
+    width: 35%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+    
+}
+.link-button {
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(red, orange);
+    border-radius: 5px;
+}
+.half-width img {
+    width: 100%;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+h1 {
+    font-size: 70px;
+}
+span {
+    color: rgb(7, 7, 63);
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 150px;
+}
+.third-part {
+    background-color: rgb(242, 245, 245);
+}
